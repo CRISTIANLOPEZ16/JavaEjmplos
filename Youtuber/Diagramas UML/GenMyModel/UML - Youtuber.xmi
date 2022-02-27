@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1NZBYCfnEeiYD9TOdwevwA" name="model">
+  <eAnnotations xmi:id="_1NZBYSfnEeiYD9TOdwevwA" source="genmymodel">
+    <details xmi:id="_1NZBYifnEeiYD9TOdwevwA" key="uuid" value="_P-g3UCfkEeiYD9TOdwevwA"/>
+    <details xmi:id="_1NZBYyfnEeiYD9TOdwevwA" key="author" value="brigid2427"/>
+  </eAnnotations>
+  <packageImport xmi:id="_1NZBZCfnEeiYD9TOdwevwA">
+    <eAnnotations xmi:id="_1NZBZSfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZBZifnEeiYD9TOdwevwA" key="uuid" value="_P-g3USfkEeiYD9TOdwevwA"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" xmi:id="_1NZBZyfnEeiYD9TOdwevwA" name="YouTuber">
+    <eAnnotations xmi:id="_1NZBaCfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZBaSfnEeiYD9TOdwevwA" key="uuid" value="_ST2gQAoSEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <generalization xmi:id="_1NZBaifnEeiYD9TOdwevwA" general="_1NZB3CfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZBayfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBbCfnEeiYD9TOdwevwA" key="uuid" value="_aFIj4QoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </generalization>
+    <ownedAttribute xmi:id="_1NZBbSfnEeiYD9TOdwevwA" name="videos [ ] " type="_1NZBvifnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZBbifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBbyfnEeiYD9TOdwevwA" key="uuid" value="_a0oOgAoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZBcCfnEeiYD9TOdwevwA" name="followers [ ]" type="_1NZBjifnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZBcSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBcifnEeiYD9TOdwevwA" key="uuid" value="_ltpmgAoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZBcyfnEeiYD9TOdwevwA" name="count" visibility="private">
+      <eAnnotations xmi:id="_1NZBdCfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBdSfnEeiYD9TOdwevwA" key="uuid" value="_mSbHgAoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1NZBdifnEeiYD9TOdwevwA" name="YouTuber">
+      <eAnnotations xmi:id="_1NZBdyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBeCfnEeiYD9TOdwevwA" key="uuid" value="_t_gvAQoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBeSfnEeiYD9TOdwevwA" name="Youtuber">
+      <eAnnotations xmi:id="_1NZBeifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBeyfnEeiYD9TOdwevwA" key="uuid" value="_uPY-EAoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBfCfnEeiYD9TOdwevwA" name="fecha" type="_1NZB0CfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBfSfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBfifnEeiYD9TOdwevwA" key="uuid" value="_yfTUEAoSEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_1NZBfyfnEeiYD9TOdwevwA" name="nombre" isUnique="false">
+        <eAnnotations xmi:id="_1NZBgCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBgSfnEeiYD9TOdwevwA" key="uuid" value="_17ZngAoSEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBgifnEeiYD9TOdwevwA" name="agregarFollower">
+      <eAnnotations xmi:id="_1NZBgyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBhCfnEeiYD9TOdwevwA" key="uuid" value="_ud0boQoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBhSfnEeiYD9TOdwevwA" name="y" type="_1NZBjifnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBhifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBhyfnEeiYD9TOdwevwA" key="uuid" value="_CpE0AAoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBiCfnEeiYD9TOdwevwA" name="eliminarFollower">
+      <eAnnotations xmi:id="_1NZBiSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBiifnEeiYD9TOdwevwA" key="uuid" value="_vHFbEAoSEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBiyfnEeiYD9TOdwevwA" name="y" type="_1NZBjifnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBjCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBjSfnEeiYD9TOdwevwA" key="uuid" value="_GMvIAAoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_1NZBjifnEeiYD9TOdwevwA" name="YouTuberFollower">
+    <eAnnotations xmi:id="_1NZBjyfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZBkCfnEeiYD9TOdwevwA" key="uuid" value="_SpVoEAoSEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <generalization xmi:id="_1NZBkSfnEeiYD9TOdwevwA" general="_1NZB3CfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZBkifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBkyfnEeiYD9TOdwevwA" key="uuid" value="_aoyqkQoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </generalization>
+    <ownedAttribute xmi:id="_1NZBlCfnEeiYD9TOdwevwA" name="misYoutubers [ ]" type="_1NZBZyfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZBlSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBlifnEeiYD9TOdwevwA" key="uuid" value="_sZXlsQoUEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZBlyfnEeiYD9TOdwevwA" name="count" visibility="private">
+      <eAnnotations xmi:id="_1NZBmCfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBmSfnEeiYD9TOdwevwA" key="uuid" value="_soME0AoUEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1NZBmifnEeiYD9TOdwevwA" name="YouTuberFollower">
+      <eAnnotations xmi:id="_1NZBmyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBnCfnEeiYD9TOdwevwA" key="uuid" value="_AIkUMAoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBnSfnEeiYD9TOdwevwA" name="YouTuberFollower">
+      <eAnnotations xmi:id="_1NZBnifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBnyfnEeiYD9TOdwevwA" key="uuid" value="_Am2LoAoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBoCfnEeiYD9TOdwevwA" name="fecha" type="_1NZB0CfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBoSfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBoifnEeiYD9TOdwevwA" key="uuid" value="_F5gYEAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_1NZBoyfnEeiYD9TOdwevwA" name="nombre" isUnique="false">
+        <eAnnotations xmi:id="_1NZBpCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBpSfnEeiYD9TOdwevwA" key="uuid" value="_GCFsUAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBpifnEeiYD9TOdwevwA" name="seguirYoutuber">
+      <eAnnotations xmi:id="_1NZBpyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBqCfnEeiYD9TOdwevwA" key="uuid" value="_A3OxAQoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBqSfnEeiYD9TOdwevwA" name="y" type="_1NZBZyfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBqifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBqyfnEeiYD9TOdwevwA" key="uuid" value="_RmjOAAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBrCfnEeiYD9TOdwevwA" name="dejarDeSeguirYoutuber">
+      <eAnnotations xmi:id="_1NZBrSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBrifnEeiYD9TOdwevwA" key="uuid" value="_B1Uw8QoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBryfnEeiYD9TOdwevwA" name="y" type="_1NZBZyfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBsCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBsSfnEeiYD9TOdwevwA" key="uuid" value="_TkNNgAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBsifnEeiYD9TOdwevwA" name="addYoutubers">
+      <eAnnotations xmi:id="_1NZBsyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBtCfnEeiYD9TOdwevwA" key="uuid" value="_CJQZkQoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBtSfnEeiYD9TOdwevwA" name="y" type="_1NZBZyfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBtifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBtyfnEeiYD9TOdwevwA" key="uuid" value="_UmqJAAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZBuCfnEeiYD9TOdwevwA" name="delYoutuber">
+      <eAnnotations xmi:id="_1NZBuSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBuifnEeiYD9TOdwevwA" key="uuid" value="_CbVoEAoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBuyfnEeiYD9TOdwevwA" name="y" type="_1NZBZyfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZBvCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBvSfnEeiYD9TOdwevwA" key="uuid" value="_Vh3NAAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_1NZBvifnEeiYD9TOdwevwA" name="Video">
+    <eAnnotations xmi:id="_1NZBvyfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZBwCfnEeiYD9TOdwevwA" key="uuid" value="_S4bM8QoSEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_1NZBwSfnEeiYD9TOdwevwA" name="cantidadVideo">
+      <eAnnotations xmi:id="_1NZBwifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBwyfnEeiYD9TOdwevwA" key="uuid" value="_JIHUAQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZBxCfnEeiYD9TOdwevwA" name="video">
+      <eAnnotations xmi:id="_1NZBxSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBxifnEeiYD9TOdwevwA" key="uuid" value="_JYX9kAoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1NZBxyfnEeiYD9TOdwevwA" name="agregarVideo">
+      <eAnnotations xmi:id="_1NZByCfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBySfnEeiYD9TOdwevwA" key="uuid" value="_JyiKAQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZByifnEeiYD9TOdwevwA" name="getVideo">
+      <eAnnotations xmi:id="_1NZByyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZBzCfnEeiYD9TOdwevwA" key="uuid" value="_KDySEQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZBzSfnEeiYD9TOdwevwA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_1NZBzifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZBzyfnEeiYD9TOdwevwA" key="uuid" value="_Ru1SMAoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_1NZB0CfnEeiYD9TOdwevwA" name="Fecha">
+    <eAnnotations xmi:id="_1NZB0SfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZB0ifnEeiYD9TOdwevwA" key="uuid" value="_WuGeAAoSEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_1NZB0yfnEeiYD9TOdwevwA" name="fechaNac">
+      <eAnnotations xmi:id="_1NZB1CfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB1SfnEeiYD9TOdwevwA" key="uuid" value="_UXLNcQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1NZB1ifnEeiYD9TOdwevwA" name="Fecha">
+      <eAnnotations xmi:id="_1NZB1yfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB2CfnEeiYD9TOdwevwA" key="uuid" value="_UpCZgAoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZB2SfnEeiYD9TOdwevwA" name="fecha" isUnique="false">
+        <eAnnotations xmi:id="_1NZB2ifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZB2yfnEeiYD9TOdwevwA" key="uuid" value="_YO_MgAoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_1NZB3CfnEeiYD9TOdwevwA" name="Persona">
+    <eAnnotations xmi:id="_1NZB3SfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZB3ifnEeiYD9TOdwevwA" key="uuid" value="_X1lqgQoSEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_1NZB3yfnEeiYD9TOdwevwA" name="fechaNac" type="_1NZB0CfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZB4CfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB4SfnEeiYD9TOdwevwA" key="uuid" value="_cOM0EAoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZB4ifnEeiYD9TOdwevwA" name="nombre">
+      <eAnnotations xmi:id="_1NZB4yfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB5CfnEeiYD9TOdwevwA" key="uuid" value="_cZooAQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1NZB5SfnEeiYD9TOdwevwA" name="youtubers [ ]" type="_1NZBZyfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZB5ifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB5yfnEeiYD9TOdwevwA" key="uuid" value="_cpXGEQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_1NZB6CfnEeiYD9TOdwevwA" name="Persona">
+      <eAnnotations xmi:id="_1NZB6SfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB6ifnEeiYD9TOdwevwA" key="uuid" value="_wfWZEAoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZB6yfnEeiYD9TOdwevwA" name="Persona">
+      <eAnnotations xmi:id="_1NZB7CfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB7SfnEeiYD9TOdwevwA" key="uuid" value="_wuV3UAoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZB7ifnEeiYD9TOdwevwA" name="fecha" type="_1NZB0CfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZB7yfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZB8CfnEeiYD9TOdwevwA" key="uuid" value="_3YI10AoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+      <ownedParameter xmi:id="_1NZB8SfnEeiYD9TOdwevwA" name="nombre" isUnique="false">
+        <eAnnotations xmi:id="_1NZB8ifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZB8yfnEeiYD9TOdwevwA" key="uuid" value="_3eDQkAoTEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZB9CfnEeiYD9TOdwevwA" name="getFechaNac">
+      <eAnnotations xmi:id="_1NZB9SfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB9ifnEeiYD9TOdwevwA" key="uuid" value="_w9jYAQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZB9yfnEeiYD9TOdwevwA" name="returnParameter" type="_1NZB0CfnEeiYD9TOdwevwA" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_1NZB-CfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZB-SfnEeiYD9TOdwevwA" key="uuid" value="_gfM5wAoUEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZB-ifnEeiYD9TOdwevwA" name="setFechaNac">
+      <eAnnotations xmi:id="_1NZB-yfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZB_CfnEeiYD9TOdwevwA" key="uuid" value="_xKJCgQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZB_SfnEeiYD9TOdwevwA" name="fecha" type="_1NZB0CfnEeiYD9TOdwevwA" isUnique="false">
+        <eAnnotations xmi:id="_1NZB_ifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZB_yfnEeiYD9TOdwevwA" key="uuid" value="_iNtqAAoUEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZCACfnEeiYD9TOdwevwA" name="getNombre">
+      <eAnnotations xmi:id="_1NZCASfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCAifnEeiYD9TOdwevwA" key="uuid" value="_xZGEgQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZCAyfnEeiYD9TOdwevwA" name="returnParameter" isUnique="false" direction="return">
+        <eAnnotations xmi:id="_1NZCBCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCBSfnEeiYD9TOdwevwA" key="uuid" value="_lTLmIAoUEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_1NZCBifnEeiYD9TOdwevwA" name="setNombre">
+      <eAnnotations xmi:id="_1NZCByfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCCCfnEeiYD9TOdwevwA" key="uuid" value="_xk2BgQoTEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_1NZCCSfnEeiYD9TOdwevwA" name="nombre" isUnique="false">
+        <eAnnotations xmi:id="_1NZCCifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCCyfnEeiYD9TOdwevwA" key="uuid" value="_plcFgAoUEDaZs_P_9byb4w"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#//String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Dependency" xmi:id="_1NZCDCfnEeiYD9TOdwevwA" client="_1NZBjifnEeiYD9TOdwevwA" supplier="_1NZBZyfnEeiYD9TOdwevwA">
+    <eAnnotations xmi:id="_1NZCDSfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZCDifnEeiYD9TOdwevwA" key="uuid" value="_X5xfkgoVEDaZs_P_9byb4w"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_1NZCDyfnEeiYD9TOdwevwA" name="Persona_Fecha" memberEnd="_1NZCEifnEeiYD9TOdwevwA _1NZCGSfnEeiYD9TOdwevwA" navigableOwnedEnd="_1NZCEifnEeiYD9TOdwevwA _1NZCGSfnEeiYD9TOdwevwA">
+    <eAnnotations xmi:id="_1NZCECfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZCESfnEeiYD9TOdwevwA" key="uuid" value="_jnGCUgoVEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_1NZCEifnEeiYD9TOdwevwA" name="Fecha de Nacimiento" type="_1NZB0CfnEeiYD9TOdwevwA" association="_1NZCDyfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZCEyfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCFCfnEeiYD9TOdwevwA" key="uuid" value="_jnE0MwoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCFSfnEeiYD9TOdwevwA" value="1">
+        <eAnnotations xmi:id="_1NZCFifnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCFyfnEeiYD9TOdwevwA" key="uuid" value="_jnGCUAoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_1NZCGCfnEeiYD9TOdwevwA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1NZCGSfnEeiYD9TOdwevwA" name="persona" type="_1NZB3CfnEeiYD9TOdwevwA" association="_1NZCDyfnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZCGifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCGyfnEeiYD9TOdwevwA" key="uuid" value="_jnE0MAoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCHCfnEeiYD9TOdwevwA">
+        <eAnnotations xmi:id="_1NZCHSfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCHifnEeiYD9TOdwevwA" key="uuid" value="_jnE0MQoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCHyfnEeiYD9TOdwevwA" value="1">
+        <eAnnotations xmi:id="_1NZCICfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCISfnEeiYD9TOdwevwA" key="uuid" value="_jnE0MgoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_1NZCIifnEeiYD9TOdwevwA" name="YouTuber_Video" memberEnd="_1NZCJSfnEeiYD9TOdwevwA _1NZCLCfnEeiYD9TOdwevwA" navigableOwnedEnd="_1NZCJSfnEeiYD9TOdwevwA _1NZCLCfnEeiYD9TOdwevwA">
+    <eAnnotations xmi:id="_1NZCIyfnEeiYD9TOdwevwA" source="genmymodel">
+      <details xmi:id="_1NZCJCfnEeiYD9TOdwevwA" key="uuid" value="_rnwtIwoVEDaZs_P_9byb4w"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_1NZCJSfnEeiYD9TOdwevwA" name="video" type="_1NZBvifnEeiYD9TOdwevwA" aggregation="shared" association="_1NZCIifnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZCJifnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCJyfnEeiYD9TOdwevwA" key="uuid" value="_rnwtIAoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCKCfnEeiYD9TOdwevwA" value="1">
+        <eAnnotations xmi:id="_1NZCKSfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCKifnEeiYD9TOdwevwA" key="uuid" value="_rnwtIQoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_1NZCKyfnEeiYD9TOdwevwA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1NZCLCfnEeiYD9TOdwevwA" name="youTuber" type="_1NZBZyfnEeiYD9TOdwevwA" association="_1NZCIifnEeiYD9TOdwevwA">
+      <eAnnotations xmi:id="_1NZCLSfnEeiYD9TOdwevwA" source="genmymodel">
+        <details xmi:id="_1NZCLifnEeiYD9TOdwevwA" key="uuid" value="_rnwGEQoVEDaZs_P_9byb4w"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCLyfnEeiYD9TOdwevwA">
+        <eAnnotations xmi:id="_1NZCMCfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCMSfnEeiYD9TOdwevwA" key="uuid" value="_rnwGEgoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </lowerValue>
+      <upperValue xsi:type="uml:LiteralInteger" xmi:id="_1NZCMifnEeiYD9TOdwevwA" value="1">
+        <eAnnotations xmi:id="_1NZCMyfnEeiYD9TOdwevwA" source="genmymodel">
+          <details xmi:id="_1NZCNCfnEeiYD9TOdwevwA" key="uuid" value="_rnwGEwoVEDaZs_P_9byb4w"/>
+        </eAnnotations>
+      </upperValue>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
